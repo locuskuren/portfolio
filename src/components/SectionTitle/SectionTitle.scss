@@ -1,0 +1,23 @@
+.section-title {
+  margin-bottom: 20px;
+
+  .title {
+    display: flex;
+    align-items: center;
+
+    .dash {
+      height: 5px;
+      background-color: #fd4370;
+      margin-right: 20px;
+      border-radius: 5px;
+    }
+  }
+
+  h2 {
+    margin: 40px 0;
+    font-size: 2.7rem;
+    max-width: 600px;
+    line-height: 4rem;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8vw;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #141628;
+
+  @media screen and (max-width: 1146px) {
+    padding: 10px 5vw;
+  }
+
+  .logo {
+    background-image: url('https://res.cloudinary.com/locuskuren/image/upload/v1654846772/myChat/logo_fspufk.png');
+    background-size: cover;
+    width: 59px;
+    height: 60px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+    ul {
+      display: flex;
+
+      li {
+        padding-left: 30px;
+
+        a {
+          font-size: 1.2rem;
+          color: #d1d5e8;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

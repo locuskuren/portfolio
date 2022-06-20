@@ -1,0 +1,73 @@
+#welcome {
+  display: flex;
+  padding: 225px 8vw 0 8vw;
+  align-items: flex-end;
+  background-color: #141628;
+
+  @media screen and (max-width: 1146px) {
+    flex-direction: column;
+    padding: 120px 5vw 0 5vw;
+  }
+
+  .introduction {
+    width: 40%;
+    margin-bottom: 200px;
+
+    @media screen and (max-width: 1347px) {
+      margin: 0 0 40px 0;
+    }
+
+    @media screen and (max-width: 1145px) {
+      width: 100%;
+      margin-bottom: 100px;
+    }
+
+    h1 {
+      font-size: 4rem;
+      line-height: 5rem;
+      font-weight: 500;
+    }
+
+    h2 {
+      font-size: 3rem;
+      line-height: 4rem;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #d1d5d8;
+    }
+
+    .highlight {
+      color: #fd4370;
+    }
+
+    button {
+      margin-top: 40px;
+      font-size: 1.2rem;
+      color: white;
+      background-color: #fd4370;
+      border: none;
+      padding: 15px 30px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #262a43;
+      }
+    }
+  }
+  .image {
+    width: 60%;
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}

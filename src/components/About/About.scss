@@ -1,0 +1,32 @@
+#about {
+  padding: 100px 8vw 100px 8vw;
+  align-items: flex-end;
+  background-color: #141628;
+
+  @media screen and (max-width: 1146px) {
+    padding: 120px 5vw;
+  }
+
+  .content {
+    max-width: 800px;
+
+    p {
+      color: #d1d5e8;
+      margin-bottom: 60px;
+      line-height: 2rem;
+    }
+
+    button {
+      border: none;
+      font-size: 1.2rem;
+      padding: 15px 30px;
+      cursor: pointer;
+      background-color: #fd4370;
+      color: white;
+
+      &:hover {
+        background-color: #262a43;
+      }
+    }
+  }
+}
